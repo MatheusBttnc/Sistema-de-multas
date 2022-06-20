@@ -1,0 +1,56 @@
+header {
+    width: auto;
+    position: relative;
+    background-image: url("https://images.pexels.com/photos/681347/pexels-photo-681347.jpeg?cs=srgb&dl=pexels-aleksejs-bergmanis-681347.jpg&fm=jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#headerblur {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    top: 5%;
+    right: 10%;
+    background-color: rgba(255, 255, 255, 0.100);
+    height: 80vh;
+    width: 140vh;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 15px;
+    position: absolute;
+    padding: 50px 50px 10px 50px;
+}
+
+#headerblur h1 {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 4px 4px 10px black;
+}
+#headerblur h2 {
+    font-size: 30px;
+    text-shadow: 4px 4px 10px black;
+    margin-top: 55px;
+}
+
+#headerblur p {
+    font-size: 25px;
+    text-shadow: 4px 4px 10px black;
+    margin-bottom: 10px;
+}
+
+#headerblur input {
+    font-size: 20px;
+    box-shadow: 4px 4px 10px black;;
+}
+
+#divvel {
+    margin-top: 120px;
+}
+
+#txtvel, #inputvel {
+    margin-bottom: 30px;
+}
